@@ -28,8 +28,6 @@
     "typings": "^1.0.4"
   },
   "dependencies": {
-    "immutable": "^3.8.1",
-    "chai": "^3.5.0",
     "chai-immutable": "^1.5.4"
   }
 }
