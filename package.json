@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Ivan Zlatev",
+    "url": "http://ivanz.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ivanz/chai-immutable-typings"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivanz/chai-immutable-typings"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo building... && typings bundle -o dist",
+    "lint": "echo linting... && tslint \"lib/**/*.ts\" \"test/**/*.ts\"",
+    "test": "echo testing... && mocha \"build/tests.js\"",
+    "build+test": "npm run build && npm run test",
+    "typings": "typings install"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "tslint": "*",
+    "tslint-config-typings": "^0.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.5.4"
+  }
+}
