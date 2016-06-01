@@ -1,7 +1,6 @@
 typings
 .vscode
 build
-dist
 
 # Logs
 logs

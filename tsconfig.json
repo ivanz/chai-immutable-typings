@@ -13,6 +13,7 @@
     "node_modules",
     "typings/globals",
     "typings/modules",
-    "lib"
+    "lib",
+    "build"
   ]
 }
