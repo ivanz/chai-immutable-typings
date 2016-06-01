@@ -16,7 +16,7 @@
   "scripts": {
     "build": "echo building... && typings bundle -o dist/chai-immutable.d.ts && tsc -p . ",
     "lint": "echo linting... && tslint \"lib/**/*.ts\" \"test/**/*.ts\"",
-    "test": "echo testing... && mocha \"build/tests.js\"",
+    "test": "mocha \"build/*.specs.js\"",
     "build+test": "npm run build && npm run test",
     "typings": "typings install"
   },
