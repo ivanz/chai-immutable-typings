@@ -14,11 +14,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo building... && typings bundle -o dist/chai-immutable.d.ts && tsc -p . ",
-    "lint": "echo linting... && tslint \"lib/**/*.ts\" \"test/**/*.ts\"",
+    "build": "typings bundle -o dist/chai-immutable.d.ts && tsc -p . ",
+    "lint": "tslint \"lib/**/*.ts\" \"test/**/*.ts\"",
     "test": "mocha \"build/*.specs.js\"",
     "build+test": "npm run build && npm run test",
-    "typings": "typings install"
+    "lint+build+test": "npm run lint && npm run build+test",
+    "prepublish": "typings install"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
