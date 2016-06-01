@@ -1,4 +1,4 @@
-import {Length} from '~chai/lib/Assertion'
+import {Length} from '~chai/lib/Assertion';
 
 declare module '~chai/lib/Assertion' {
   
