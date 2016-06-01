@@ -1,4 +1,4 @@
-import * as chaiImmutable from './chai-immutable'
-import * as Assertion from './Assertion'
+import * as chaiImmutable from './chai-immutable';
+import {} from './Assertion';
 
-export = chaiImmutable
+export = chaiImmutable;
