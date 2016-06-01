@@ -2,17 +2,17 @@
   "compilerOptions": {
     "target": "es5",
     "noImplicitAny": true,
-    "declaration": true,
+    "declaration": false,
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "build"
   },
   "compileOnSave": true,
   "exclude": [
+    ".git",
     "node_modules",
     "typings/globals",
     "typings/modules",
-    "build",
-    "dist"
+    "lib"
   ]
 }
