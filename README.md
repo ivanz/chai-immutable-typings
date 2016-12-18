@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/ivanz/chai-immutable-typings.svg?branch=master)](https://travis-ci.org/ivanz/chai-immutable-typings)
+DEPRECATED
